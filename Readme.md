@@ -1,4 +1,4 @@
-
+How to install:
 
 1. Go to eclipse market place
 Help -> Eclipse Marketplace -> Search for Color IDE Pack -> Install all (EditBox can be skipped) -> wait till eclipse install everything -> restart eclipse afterwards
