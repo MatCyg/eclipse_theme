@@ -1,0 +1,160 @@
+/*******************************************************************************
+ * Contributors:
+ *
+ *     matcyg <matcyg@gmail.com>
+ *******************************************************************************/
+
+/*#org-eclipse-ui-trim-vertical2,*/
+/*#org-eclipse-ui-trim-status,*/
+/*#org-eclipse-ui-trim-vertical2 {
+   visibility: hidden;
+}*/
+
+.MPart.busy {
+  font-style: italic;
+}
+
+.MPart.highlighted {
+  font-weight: bold;
+}
+
+.MPartStack, .MPart {
+  font-family: '#org-eclipse-ui-workbench-TAB_TEXT_FONT';
+}
+
+CTabItem:selected {
+  color: '#org-eclipse-ui-workbench-ACTIVE_TAB_TEXT_COLOR';
+}
+
+
+.MTrimmedWindow {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 2px;
+  margin-right: 2px;
+  background-color: #F0F0F0;
+}
+
+.MPartStack {
+  swt-tab-renderer:
+    url('bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer');
+  swt-mru-visible: true;
+
+  /* layout */
+  swt-tab-height: 22px;
+  jtab-border-radius: 0px;
+  jtab-spacing: 0px;
+  jtab-item-padding: 0px 5px;
+  jtab-padding : 0px;
+
+  background : #F0F0F0;
+
+  jtab-header-background : #F0F0F0 100%;
+
+  jtab-selected-tab-background: #D7D7D7;
+  jtab-selected-border-color: #D7D7D7;
+
+
+  jtab-unselected-tabs-background: #F0F0F0;
+  jtab-unselected-border-color: none;
+
+  jtab-hover-color : #FFFFFF;
+  jtab-hover-tabs-background: #3399FF;
+
+
+  jtab-close-button-color: #000000;
+  jtab-close-button-hot-color: #F21500;
+  jtab-close-button-line-width: 1px;
+
+
+
+}
+
+.MPartStack.active {
+  swt-tab-renderer:
+    url('bundleclass://net.jeeeyul.eclipse.themes/net.jeeeyul.eclipse.themes.rendering.JeeeyulsTabRenderer');
+
+  jtab-header-background : #F0F0F0 100%;
+  jtab-selected-color: #F0F0F0;
+
+  jtab-selected-tab-background: #63B4FB 100%;
+  jtab-selected-border-color: #63B4FB;
+
+  jtab-unselected-tabs-background: none;
+  jtab-unselected-border-color: none;
+
+  jtab-hover-color : #FFFFFF;
+  jtab-hover-tabs-background: #3399FF;
+
+  jtab-hover-color : #FFFFFF;
+  jtab-hover-tabs-background: #3399FF;
+
+  jtab-close-button-color: #FFFFFF;
+  jtab-close-button-hot-color: #F21500;
+  jtab-close-button-line-width: 2px;
+
+}
+
+.MPartStack.active.noFocus > CTabItem:selected {
+  /*color: '#org-eclipse-ui-workbench-ACTIVE_NOFOCUS_TAB_TEXT_COLOR';*/
+  /*color: #FFFF55;*/
+}
+
+.MPartStack.active > CTabItem:selected {
+    color : #ffffff;
+}
+
+.MPartStack > CTabItem:selected {
+    /*color : #ffffff;*/
+}
+
+#PerspectiveSwitcher  {
+  eclipse-perspective-keyline-color: #ECE9D8 #FFFFFF;
+}
+
+.MToolControl.TrimStack {
+
+  handle-image:  url(./winClassicHandle.png);
+  frame-cuts: 5px 1px 5px 16px;
+}
+
+.MToolBar.Draggable {
+  handle-image:  url(./dragHandle.png);
+}
+
+.MToolControl.Draggable {
+  handle-image:  url(./dragHandle.png);
+}
+
+.DragFeedback {
+  background-color: COLOR-WIDGET-NORMAL-SHADOW;
+}
+
+.ModifiedDragFeedback {
+  background-color: #A0A000;
+}
+
+#org-eclipse-ui-editorss {
+  swt-tab-height: 8px;
+}
+
+/*Tree {
+  background-color: #F0F0F0 #F0F0F0;
+  color: #000000;
+}*/
+
+CTabFolder Tree, CTabFolder Canvas {
+      background-color: #F0F0F0 #F0F0F0 100%;
+      color: #000000;
+  }
+
+#org-eclipse-debug-ui-VariableView Label, #org-eclipse-debug-ui-VariableView StyledText,
+#org-eclipse-debug-ui-BreakpointView Label, #org-eclipse-debug-ui-BreakpointView StyledText {
+    background-color: #F0F0F0;
+    color: #000000;
+}
+#org-eclipse-debug-ui-VariableView SashForm, #org-eclipse-debug-ui-VariableView Sash,
+#org-eclipse-debug-ui-BreakpointView SashForm, #org-eclipse-debug-ui-BreakpointView Sash {
+    background-color: #F0F0F0;
+    color: #000000;
+}
